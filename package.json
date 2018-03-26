@@ -1,6 +1,6 @@
 {
   "name": "seal-middleware",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "secure your api endpoint by limiting access over period of time.",
   "main": "dist/index.js",
   "repository": "git@github.com:yussan/seal-middleware.git",
