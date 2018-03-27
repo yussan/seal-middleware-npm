@@ -30,7 +30,7 @@ export default class Seal {
     }
   }
 
-  getTimestampSeal() {
+  getTimestampSeal(seal) {
     if(typeof window == 'undefined') {
       // browser
       return (Buffer.from( seal, 'base64').toString()).replace(this.key, '')
@@ -46,7 +46,7 @@ export default class Seal {
    * @return {String}
    */
   validate(seal){
-    const diff = Date.now() - getTimestampSeal(seal)
+    const diff = Date.now() - this.getTimestampSeal(seal)
     if(isNaN(diff) || diff >= this.expired)
       return { is_valid: false }
     else
