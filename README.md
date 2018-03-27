@@ -1,3 +1,7 @@
+[![travis](https://travis-ci.org/yussan/seal-middleware.svg?branch=master)](https://travis-ci.org/yussan/seal-middleware)
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 # seal-middleware
 secure your api endpoint by limiting access over period of time.
 
