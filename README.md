@@ -38,3 +38,4 @@ const seal = new Seal('your app key', 5000)
 ## Links 
 - https://github.com/yussan/seal-middleware
 - https://www.npmjs.com/package/seal-middleware
+- Posted in Utopian.io : https://utopian.io/utopian-io/@yussan/seal-middleware-secure-your-api-endpoint-by-limiting-access-over-period-of-time
