@@ -13,7 +13,7 @@ export default class Seal {
    * @param key {String}, your app key 
    * @param expired {Number}, expired in miliseconds (detaullt 1 hour)
    */
-  constructor({key = 'security', expired = 500}) {
+  constructor(key = 'security', expired = 500) {
     this.key = key
     this.expired = expired
   }
