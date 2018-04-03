@@ -1,6 +1,8 @@
 [![travis](https://travis-ci.org/yussan/seal-middleware.svg?branch=master)](https://travis-ci.org/yussan/seal-middleware)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+![logo seal-middleware](https://user-images.githubusercontent.com/36233576/38233089-0d34f9fe-3722-11e8-8dcb-1be43ceaa859.png)
+
 # seal-middleware
 secure your api endpoint by limiting access over period of time.
 
@@ -36,6 +38,10 @@ const seal = new Seal('your app key', 5000)
   If seal expired, response from api is `request invalid` or `forbidden access`.
 
 ## Links 
-- https://github.com/yussan/seal-middleware
-- https://www.npmjs.com/package/seal-middleware
+- Github : https://github.com/yussan/seal-middleware
+- NPM : https://www.npmjs.com/package/seal-middleware
 - Posted in Utopian.io : https://utopian.io/utopian-io/@yussan/seal-middleware-secure-your-api-endpoint-by-limiting-access-over-period-of-time
+
+## Contributors 
+- [yussan](https://yussan.github.io) : JS Developer
+- radudangratian : Logo creator
