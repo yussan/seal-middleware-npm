@@ -18,6 +18,6 @@ describe('seal test', () => {
   it('will failed, because limit is 1 seconds', (done) => {
     setTimeout(() => {
       if(SealClass.validate(seal).is_valid === false) done() 
-    }, 1000)
+    }, 500)
   })
 })
