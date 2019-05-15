@@ -44,4 +44,4 @@ const seal = new Seal('your app key', 5000)
 
 ## Contributors 
 - [yussan](https://yussan.github.io) : JS Developer
-- radudangratian : Logo creator
+- [radudangratian](https://steemit.com/utopian-io/@radudangratian/logo-proposal-for-seal-middleware) : Logo creator 
