@@ -1,13 +1,10 @@
 {
-  "name": "@yussan/seal-middleware",
+  "name": "seal-middleware",
   "version": "0.1.0",
   "description": "secure your api endpoint by limiting access over period of time.",
   "main": "dist/index.js",
   "repository": "git@github.com:yussan/seal-middleware.git",
   "author": "yussan <yussandeveloper@gmail.com>",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "license": "MIT",
   "keywords": [
     "middleware",
